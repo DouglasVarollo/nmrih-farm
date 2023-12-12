@@ -1,0 +1,18 @@
+"Phrases"
+{
+  "Current Day"
+  {
+    "#format"  "{1:d}"
+    "en"       "[{green}FARM{white}] {gold}Day {1}"
+    "es"       "[{green}FARM{white}] {gold}Dia {1}"
+    "pt"       "[{green}FARM{white}] {gold}Dia {1}"
+  }
+
+  "Current Day Console"
+  {
+    "#format"  "{1:d}"
+    "en"       "[FARM] Day {1}"
+    "es"       "[FARM] Dia {1}"
+    "pt"       "[FARM] Dia {1}"
+  }
+}
