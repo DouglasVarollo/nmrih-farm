@@ -8,7 +8,7 @@
 #define FARM_LOG_TYPE_CONSOLE 2
 
 #define PLUGIN_DESCRIPTION "Add features to the mg_farm map"
-#define PLUGIN_VERSION     "1.0.4"
+#define PLUGIN_VERSION     "1.0.5"
 
 public Plugin myinfo =
 {

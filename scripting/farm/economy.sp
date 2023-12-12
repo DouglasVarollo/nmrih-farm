@@ -251,6 +251,11 @@ stock Action Timer_PrintPurchase(Handle timer, DataPack datapack)
 
 	ReadPackString(datapack, name, sizeof(name));
 
+	if (!IsClientInGame(client))
+	{
+		return Plugin_Handled;
+	}
+
 	if (!purchases[client].GetArray(name, purchase, sizeof(purchase)))
 	{
 		return Plugin_Handled;
