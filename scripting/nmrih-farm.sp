@@ -8,7 +8,7 @@
 #define MAX_MESSAGE_LENGTH 128
 
 #define PLUGIN_DESCRIPTION "Add features to the mg_farm map"
-#define PLUGIN_VERSION     "1.0.1"
+#define PLUGIN_VERSION     "1.0.2"
 
 public Plugin myinfo =
 {
@@ -23,7 +23,17 @@ ConVar CvarFarmDayInSeconds;
 ConVar CvarFarmLogType;
 
 #include <farm/calendar.sp>
+#include <farm/economy.sp>
 #include <farm/utils.sp>
+
+stock void OnButtonPressed(const char[] output, int caller, int activator, float delay)
+{
+	char name[MAX_TARGET_LENGTH];
+
+	GetEntPropString(caller, Prop_Data, "m_iName", name, sizeof(name));
+
+	InsertPurchase(activator, name);
+}
 
 stock Action Event_RoundBegin(Event event, const char[] name, bool dontBroadcast)
 {
@@ -43,6 +53,17 @@ public void OnMapStart()
 	{
 		return;
 	}
+
+	HookEntityOutput("func_button", "OnPressed", OnButtonPressed);
+
+	RegisterPurchasableItems();
+	RegisterPurchases();
+}
+
+public void OnMapEnd()
+{
+	UnregisterPurchasableItems();
+	UnregisterPurchases();
 }
 
 public void OnPluginStart()

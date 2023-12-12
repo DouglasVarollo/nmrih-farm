@@ -15,4 +15,1315 @@
     "es"       "[FARM] Dia {1}"
     "pt"       "[FARM] Dia {1}"
   }
+
+  "Purchased Message"
+  {
+    "#format"  "{1:N},{2:d},{3:t},{4:d}"
+    "en"       "[{green}FARM{white}] {gold}{1} purchased {2} {3}{lightcoral} ({red}${4}{lightcoral})"
+    "es"       "[{green}FARM{white}] {gold}{1} compró {2} {3}{lightcoral} ({red}${4}{lightcoral})"
+    "pt"       "[{green}FARM{white}] {gold}{1} comprou {2} {3}{lightcoral} ({red}${4}{lightcoral})"
+  }
+
+  "Purchased Message Console"
+  {
+    "#format"  "{1:N},{2:d},{3:t},{4:d}"
+    "en"       "[FARM] {1} purchased {2} {3} (${4})"
+    "es"       "[FARM] {1} compró {2} {3} (${4})"
+    "pt"       "[FARM] {1} comprou {2} {3} (${4})"
+  }
+
+  "armor_butt"
+  {
+    "en"  "Armor"
+    "es"  "Armadura"
+    "pt"  "Armadura"
+  }
+
+  "atm_butt"
+  {
+    "en"  "ATM"
+    "es"  "Cajero Automático"
+    "pt"  "Caixa eletrônico"
+  }
+
+  "bandage_butt"
+  {
+    "en"  "Bandage"
+    "es"  "Vendajes"
+    "pt"  "Bandagem"
+  }
+
+  "barn_butt"
+  {
+    "en"  "Barn"
+    "es"  "Granero"
+    "pt"  "Celeiro"
+  }
+
+  "basement_butt"
+  {
+    "en"  "Basement"
+    "es"  "Sótano"
+    "pt"  "Porão"
+  }
+
+  "basket_button_1"
+  {
+    "en"  "Basket"
+    "es"  "Cesta"
+    "pt"  "Cesta"
+  }
+
+  "basket_button_2"
+  {
+    "en"  "Basket"
+    "es"  "Cesta"
+    "pt"  "Cesta"
+  }
+
+  "basket_button_3"
+  {
+    "en"  "Basket"
+    "es"  "Cesta"
+    "pt"  "Cesta"
+  }
+
+  "basket_button_4"
+  {
+    "en"  "Basket"
+    "es"  "Cesta"
+    "pt"  "Cesta"
+  }
+
+  "bell_butt"
+  {
+    "en"  "Bell Tower"
+    "es"  "Campanario"
+    "pt"  "Torre do Sino"
+  }
+
+  "capy2_butt"
+  {
+    "en"  "Capybara"
+    "es"  "Carpincho"
+    "pt"  "Capivara"
+  }
+
+  "capy_butt"
+  {
+    "en"  "Capybara"
+    "es"  "Carpincho"
+    "pt"  "Capivara"
+  }
+
+  "car_butt"
+  {
+    "en"  "Hovercraft"
+    "es"  "Hidrodeslizador"
+    "pt"  "Aerobarco"
+  }
+
+  "castle_butt"
+  {
+    "en"  "Bouncy Castle"
+    "es"  "Castillo inflable"
+    "pt"  "Castelo inflável"
+  }
+
+  "cat_butt"
+  {
+    "en"  "Cat"
+    "es"  "Gato"
+    "pt"  "Gato"
+  }
+
+  "chainsaw_butt"
+  {
+    "en"  "Chainsaw"
+    "es"  "Motosierra"
+    "pt"  "Motosserra"
+  }
+
+  "clock_button"
+  {
+    "en"  "Clock"
+    "es"  "Reloj"
+    "pt"  "Relógio"
+  }
+
+  "coffee_butt"
+  {
+    "en"  "Coffee machine"
+    "es"  "Máquina de Café"
+    "pt"  "Máquina de Café"
+  }
+
+  "coffee_butt2"
+  {
+    "en"  "Coffee machine"
+    "es"  "Máquina de Café"
+    "pt"  "Máquina de Café"
+  }
+
+  "coffeebutt"
+  {
+    "en"  "Coffee"
+    "es"  "Café"
+    "pt"  "Café"
+  }
+
+  "contract_17_butt"
+  {
+    "en"  "Cow"
+    "es"  "Vaca"
+    "pt"  "Vaca"
+  }
+
+  "contract_18_butt"
+  {
+    "en"  "Cow"
+    "es"  "Vaca"
+    "pt"  "Vaca"
+  }
+
+  "controller_butt_1"
+  {
+    "en"  "Controller"
+    "es"  "Controlador"
+    "pt"  "Controle"
+  }
+
+  "controller_butt_2"
+  {
+    "en"  "Controller"
+    "es"  "Controlador"
+    "pt"  "Controle"
+  }
+
+  "controller_butt_3"
+  {
+    "en"  "Controller"
+    "es"  "Controlador"
+    "pt"  "Controle"
+  }
+
+  "controller_butt_4"
+  {
+    "en"  "Controller"
+    "es"  "Controlador"
+    "pt"  "Controle"
+  }
+
+  "dinky_butt"
+  {
+    "en"  "Dinky Cars"
+    "es"  "Carritos"
+    "pt"  "Miniaturas de Carros"
+  }
+
+  "dog_butt"
+  {
+    "en"  "Dog"
+    "es"  "Perrito"
+    "pt"  "Cachorro"
+  }
+
+  "duck_butt"
+  {
+    "en"  "Duck"
+    "es"  "Pato"
+    "pt"  "Pato"
+  }
+
+  "evac_axel_butt"
+  {
+    "en"  "axle"
+    "es"  "Eje"
+    "pt"  "Eixo"
+  }
+
+  "evac_battery_butt"
+  {
+    "en"  "Battery"
+    "es"  "Bateria"
+    "pt"  "Bateria"
+  }
+
+  "evac_engine_butt"
+  {
+    "en"  "Engine"
+    "es"  "Motor"
+    "pt"  "Motor"
+  }
+
+  "evac_gas_butt"
+  {
+    "en"  "Gasoline"
+    "es"  "Gasolina"
+    "pt"  "Gasolina"
+  }
+
+  "evac_muffler_butt"
+  {
+    "en"  "Muffler"
+    "es"  "Silenciador"
+    "pt"  "Escapamento"
+  }
+
+  "evac_paint_butt"
+  {
+    "en"  "Paint"
+    "es"  "Pintura"
+    "pt"  "Tinta"
+  }
+
+  "evac_tires_butt"
+  {
+    "en"  "Tires"
+    "es"  "Neumáticos"
+    "pt"  "Pneus"
+  }
+
+  "evac_tools_butt"
+  {
+    "en"  "Repairs"
+    "es"  "Herramientas"
+    "pt"  "Ferramentas"
+  }
+
+  "feed_butt"
+  {
+    "en"  "Animal feed"
+    "es"  "Alimento para animales"
+    "pt"  "Ração de animal"
+  }
+
+  "firstaid_butt"
+  {
+    "en"  "First Aid Kit"
+    "es"  "Kit de primeros auxilios"
+    "pt"  "Kit de primeiros socorros"
+  }
+
+  "furni_ball1_butt"
+  {
+    "en"  "Soccer Ball"
+    "es"  "Pelota de fútbol"
+    "pt"  "Bola de futebol"
+  }
+
+  "furni_ball2_butt"
+  {
+    "en"  "Basketball"
+    "es"  "Baloncesto"
+    "pt"  "Bola de basquete"
+  }
+
+  "furni_ball3_butt"
+  {
+    "en"  "Beach Ball"
+    "es"  "Pelota de playa"
+    "pt"  "Bola de praia"
+  }
+
+  "furni_bench_butt"
+  {
+    "en"  "Bench"
+    "es"  "Banco"
+    "pt"  "Banco"
+  }
+
+  "furni_bike_butt"
+  {
+    "en"  "Bicycle"
+    "es"  "Bicicleta"
+    "pt"  "Bicicleta"
+  }
+
+  "furni_bust_butt"
+  {
+    "en"  "Bust"
+    "es"  "Busto"
+    "pt"  "Busto"
+  }
+
+  "furni_companion_butt"
+  {
+    "en"  "Companion Cube"
+    "es"  "Cubo de compañia"
+    "pt"  "Cubo Companheiro"
+  }
+
+  "furni_computer_butt"
+  {
+    "en"  "Computer"
+    "es"  "Computador"
+    "pt"  "Computador"
+  }
+
+  "furni_drawer2_butt"
+  {
+    "en"  "Drawers"
+    "es"  "Cajones"
+    "pt"  "Gavetas"
+  }
+
+  "furni_drawer_butt"
+  {
+    "en"  "Drawers"
+    "es"  "Cajones"
+    "pt"  "Gavetas"
+  }
+
+  "furni_drums_butt"
+  {
+    "en"  "Drums"
+    "es"  "Bateria"
+    "pt"  "Bateria"
+  }
+
+  "furni_fan_butt"
+  {
+    "en"  "Fan"
+    "es"  "Ventilador"
+    "pt"  "Ventilador"
+  }
+
+  "furni_giraffe_butt"
+  {
+    "en"  "Giraffe"
+    "es"  "Jirafa"
+    "pt"  "Girafa"
+  }
+
+  "furni_glow_butt"
+  {
+    "en"  "Glowstick"
+    "es"  "Barra luminosa"
+    "pt"  "Bastão luminoso"
+  }
+
+  "furni_guitar_butt"
+  {
+    "en"  "Guitar"
+    "es"  "Guitarra"
+    "pt"  "Guitarra"
+  }
+
+  "furni_heli_butt"
+  {
+    "en"  "Helicopter"
+    "es"  "Helicóptero"
+    "pt"  "Helicóptero"
+  }
+
+  "furni_lamp_butt"
+  {
+    "en"  "Lamp"
+    "es"  "Lámpara"
+    "pt"  "Lâmpada"
+  }
+
+  "furni_laptop_butt"
+  {
+    "en"  "Laptop"
+    "es"  "Laptop"
+    "pt"  "Laptop"
+  }
+
+  "furni_mic_butt"
+  {
+    "en"  "Microphone"
+    "es"  "Micrófono"
+    "pt"  "Microfone"
+  }
+
+  "furni_monitor_butt"
+  {
+    "en"  "Television"
+    "es"  "Televisión"
+    "pt"  "Televisão"
+  }
+
+  "furni_plant_butt"
+  {
+    "en"  "Plant"
+    "es"  "Planta"
+    "pt"  "Planta"
+  }
+
+  "furni_skull_butt"
+  {
+    "en"  "Skul"
+    "es"  "Cráneo"
+    "pt"  "Crânio"
+  }
+
+  "furni_snacks_butt"
+  {
+    "en"  "Snacks"
+    "es"  "Bocadillos"
+    "pt"  "Lanches"
+  }
+
+  "furni_suitcase_butt"
+  {
+    "en"  "Suitcase"
+    "es"  "Maleta"
+    "pt"  "Maleta"
+  }
+
+  "furni_table_butt"
+  {
+    "en"  "Table"
+    "es"  "Mesa"
+    "pt"  "Mesa"
+  }
+
+  "furni_teddy_butt"
+  {
+    "en"  "Teddy Bear"
+    "es"  "Osito"
+    "pt"  "Urso Teddy"
+  }
+
+  "game_butt_0"
+  {
+    "en"  "Super Mario 64"
+    "es"  "Super Mario 64"
+    "pt"  "Super Mario 64"
+  }
+
+  "game_butt_1"
+  {
+    "en"  "Goldeneye"
+    "es"  "Goldeneye"
+    "pt"  "Goldeneye"
+  }
+
+  "game_butt_2"
+  {
+    "en"  "Banjo-Kazooie"
+    "es"  "Banjo-Kazooie"
+    "pt"  "Banjo-Kazooie"
+  }
+
+  "game_butt_3"
+  {
+    "en"  "Jet Force Gemini"
+    "es"  "Jet Force Gemini"
+    "pt"  "Jet Force Gemini"
+  }
+
+  "game_butt_4"
+  {
+    "en"  "Mario Kart 64"
+    "es"  "Mario Kart 64"
+    "pt"  "Mario Kart 64"
+  }
+
+  "game_butt_5"
+  {
+    "en"  "Perfect Dark"
+    "es"  "Perfect Dark"
+    "pt"  "Perfect Dark"
+  }
+
+  "game_butt_6"
+  {
+    "en"  "Resident Evil 2"
+    "es"  "Resident Evil 2"
+    "pt"  "Resident Evil 2"
+  }
+
+  "game_butt_7"
+  {
+    "en"  "Super Smash Bros"
+    "es"  "Super Smash Bros"
+    "pt"  "Super Smash Bros"
+  }
+
+  "game_butt_8"
+  {
+    "en"  "Majoras Mask"
+    "es"  "Majoras Mask"
+    "pt"  "Majoras Mask"
+  }
+
+  "game_butt_9"
+  {
+    "en"  "Ocarina of Time"
+    "es"  "Ocarina of Time"
+    "pt"  "Ocarina of Time"
+  }
+
+  "gene_butt"
+  {
+    "en"  "Gene"
+    "es"  "Terapia de genes"
+    "pt"  "Gene"
+  }
+
+  "gunbutt_1022"
+  {
+    "en"  "Ruger 10/22"
+    "es"  "Ruger 10/22"
+    "pt"  "Ruger 10/22"
+  }
+
+  "gunbutt_1022extendo"
+  {
+    "en"  "Ruger 10/22 Extended"
+    "es"  "Ruger 10/22 Extended"
+    "pt"  "Ruger 10/22 Extended"
+  }
+
+  "gunbutt_12guage"
+  {
+    "en"  "12gauge ammo"
+    "es"  "Munición de calibre 12"
+    "pt"  "12gauge ammo"
+  }
+
+  "gunbutt_1892"
+  {
+    "en"  "Winchester 1892"
+    "es"  "Winchester 1892"
+    "pt"  "Winchester 1892"
+  }
+
+  "gunbutt_1911"
+  {
+    "en"  "Colt M191"
+    "es"  "Colt M191"
+    "pt"  "Colt M191"
+  }
+
+  "gunbutt_22ammo"
+  {
+    "en"  "22 Ammo"
+    "es"  "Munición calibre 22"
+    "pt"  "Munição 22"
+  }
+
+  "gunbutt_308ammo"
+  {
+    "en"  "308 Ammo"
+    "es"  "Munición calibre 308"
+    "pt"  "Munição 308"
+  }
+
+  "gunbutt_357"
+  {
+    "en"  "S&W 686"
+    "es"  "S&W 686"
+    "pt"  "S&W 686"
+  }
+
+  "gunbutt_357ammo"
+  {
+    "en"  "357 Ammo"
+    "es"  "Munición del calibre 357"
+    "pt"  "Munição 357"
+  }
+
+  "gunbutt_45ammo"
+  {
+    "en"  "45 Ammo"
+    "es"  "Munición del calibre 45"
+    "pt"  "Munição 45"
+  }
+
+  "gunbutt_556ammo"
+  {
+    "en"  "556 Ammo"
+    "es"  "Munición 556"
+    "pt"  "Munição 556"
+  }
+
+  "gunbutt_762ammo"
+  {
+    "en"  "762 Ammo"
+    "es"  "Munición 762"
+    "pt"  "Munição 762"
+  }
+
+  "gunbutt_870"
+  {
+    "en"  "Remington 870"
+    "es"  "Remington 870"
+    "pt"  "Remington 870"
+  }
+
+  "gunbutt_9mmammo"
+  {
+    "en"  "9mm Ammo"
+    "es"  "Munición 9mm"
+    "pt"  "Munição 9mm"
+  }
+
+  "gunbutt_arrowammo"
+  {
+    "en"  "Arrows"
+    "es"  "Flechas"
+    "pt"  "Flechas"
+  }
+
+  "gunbutt_bow"
+  {
+    "en"  "Compound Bow"
+    "es"  "Arco compuesto"
+    "pt"  "Compound Bow"
+  }
+
+  "gunbutt_cz"
+  {
+    "en"  "CZech 858"
+    "es"  "CZech 858"
+    "pt"  "CZech 858"
+  }
+
+  "gunbutt_fal"
+  {
+    "en"  "FN FAL"
+    "es"  "FN FAL"
+    "pt"  "FN FAL"
+  }
+
+  "gunbutt_flare"
+  {
+    "en"  "Flare Gun"
+    "es"  "Pistola de bengalas"
+    "pt"  "Flare Gun"
+  }
+
+  "gunbutt_flareammo"
+  {
+    "en"  "Flares"
+    "es"  "Bengalas"
+    "pt"  "Sinalizadores"
+  }
+
+  "gunbutt_glocko"
+  {
+    "en"  "Glock 17"
+    "es"  "Glock 17"
+    "pt"  "Glock 17"
+  }
+
+  "gunbutt_jae"
+  {
+    "en"  "JAE-700"
+    "es"  "JAE-700"
+    "pt"  "JAE-700"
+  }
+
+  "gunbutt_m16"
+  {
+    "en"  "M16A4"
+    "es"  "M16A4"
+    "pt"  "M16A4"
+  }
+
+  "gunbutt_m16carry"
+  {
+    "en"  "M16A4 Carry Handle"
+    "es"  "M16A4 Carry Handle"
+    "pt"  "M16A4 Carry Handle"
+  }
+
+  "gunbutt_m92fs"
+  {
+    "en"  "Beretta M9"
+    "es"  "Beretta M9"
+    "pt"  "Beretta M9"
+  }
+
+  "gunbutt_mac10"
+  {
+    "en"  "MAC10"
+    "es"  "MAC10"
+    "pt"  "MAC10"
+  }
+
+  "gunbutt_mk3"
+  {
+    "en"  "Ruger MkIII"
+    "es"  "Ruger MkIII"
+    "pt"  "Ruger MkIII"
+  }
+
+  "gunbutt_mossberg500"
+  {
+    "en"  "Mossberg 500A"
+    "es"  "Mossberg 500A"
+    "pt"  "Mossberg 500A"
+  }
+
+  "gunbutt_mp5"
+  {
+    "en"  "MP5A3"
+    "es"  "MP5A3"
+    "pt"  "MP5A3"
+  }
+
+  "gunbutt_sako"
+  {
+    "en"  "Sako 85"
+    "es"  "Sako 85"
+    "pt"  "Sako 85"
+  }
+
+  "gunbutt_sakonoscope"
+  {
+    "en"  "Sako 85 Ironsight"
+    "es"  "Sako 85 Ironsight"
+    "pt"  "Sako 85 Ironsight"
+  }
+
+  "gunbutt_sks"
+  {
+    "en"  "SKS"
+    "es"  "SKS"
+    "pt"  "SKS"
+  }
+
+  "gunbutt_superx3"
+  {
+    "en"  "Super X3"
+    "es"  "Super X3"
+    "pt"  "Super X3"
+  }
+
+  "gunbutt_sv10"
+  {
+    "en"  "Beretta SV10"
+    "es"  "Beretta SV10"
+    "pt"  "Beretta SV10"
+  }
+
+  "gunbutt_tammo_ar2"
+  {
+    "en"  "Turret ammo"
+    "es"  "Munición de torreta"
+    "pt"  "Munição de torreta"
+  }
+
+  "gunbutt_tammo_ball"
+  {
+    "en"  "Turret ammo"
+    "es"  "Munición de torreta"
+    "pt"  "Munição de torreta"
+  }
+
+  "gunbutt_tammo_sniper"
+  {
+    "en"  "Turret ammo"
+    "es"  "Munición de torreta"
+    "pt"  "Munição de torreta"
+  }
+
+  "gunbutt_tup_clip"
+  {
+    "en"  "Turret upgrade"
+    "es"  "Mejora de torreta"
+    "pt"  "Melhoria para torreta"
+  }
+
+  "gunbutt_tup_dmg"
+  {
+    "en"  "Turret upgrade"
+    "es"  "Mejora de torreta"
+    "pt"  "Melhoria para torreta"
+  }
+
+  "gunbutt_tup_mag"
+  {
+    "en"  "Turret upgrade"
+    "es"  "Mejora de torreta"
+    "pt"  "Melhoria para torreta"
+  }
+
+  "gunbutt_tup_rof"
+  {
+    "en"  "Turret upgrade"
+    "es"  "Mejora de torreta"
+    "pt"  "Melhoria para torreta"
+  }
+
+  "gunbutt_turret_blue"
+  {
+    "en"  "Blue Turret"
+    "es"  "Torreta azul"
+    "pt"  "Torreta azul"
+  }
+
+  "gunbutt_turret_green"
+  {
+    "en"  "Green Turret"
+    "es"  "Torreta verde"
+    "pt"  "Torreta verde"
+  }
+
+  "gunbutt_turret_red"
+  {
+    "en"  "Red Turret"
+    "es"  "Torreta Roja"
+    "pt"  "Torreta vermelha"
+  }
+
+  "health_box_butt"
+  {
+    "en"  "Health box"
+    "es"  "Caja de vida"
+    "pt"  "Caixa de vida"
+  }
+
+  "lotto_butt"
+  {
+    "en"  "Lottery bet"
+    "es"  "Apuesta de lotería"
+    "pt"  "Aposta de loteria"
+  }
+
+  "memes_butt"
+  {
+    "en"  "Soundboard"
+    "es"  "Panel de sonidos"
+    "pt"  "Mesa de som"
+  }
+
+  "motel_button1"
+  {
+    "en"  "Rented room"
+    "es"  "Habitación alquilada"
+    "pt"  "Quarto alugado"
+  }
+
+  "motel_button2"
+  {
+    "en"  "Hotel room"
+    "es"  "Habitación de hotel"
+    "pt"  "Quarto do hotel"
+  }
+
+  "piano_butt"
+  {
+    "en"  "Piano"
+    "es"  "Piano"
+    "pt"  "Piano"
+  }
+
+  "pills_butt"
+  {
+    "en"  "Pills"
+    "es"  "Píldoras Phalanx"
+    "pt"  "Pílulas"
+  }
+
+  "plinkobutt"
+  {
+    "en"  "Lottery bet"
+    "es"  "Apuesta de lotería"
+    "pt"  "Aposta de loteria"
+  }
+
+  "price_banana_button"
+  {
+    "en"  "Banana seed"
+    "es"  "Semilla de plátano"
+    "pt"  "semente de Banana"
+  }
+
+  "price_chicken_gold1_button"
+  {
+    "en"  "Golden Chicken"
+    "es"  "Gallina Dorada"
+    "pt"  "Galinha Dourada"
+  }
+
+  "price_chicken_gold2_button"
+  {
+    "en"  "Golden Chicken"
+    "es"  "Gallina Dorada"
+    "pt"  "Galinha Dourada"
+  }
+
+  "price_chicken_gold3_button"
+  {
+    "en"  "Golden Chicken"
+    "es"  "Gallina Dorada"
+    "pt"  "Galinha Dourada"
+  }
+
+  "price_chicken_gold4_button"
+  {
+    "en"  "Golden Chicken"
+    "es"  "Gallina Dorada"
+    "pt"  "Galinha Dourada"
+  }
+
+  "price_chicken_white1_button"
+  {
+    "en"  "Chicken"
+    "es"  "Gallina"
+    "pt"  "Galinha"
+  }
+
+  "price_chicken_white2_button"
+  {
+    "en"  "Chicken"
+    "es"  "Gallina"
+    "pt"  "Galinha"
+  }
+
+  "price_chicken_white3_button"
+  {
+    "en"  "Chicken"
+    "es"  "Gallina"
+    "pt"  "Galinha"
+  }
+
+  "price_chicken_white4_button"
+  {
+    "en"  "Chicken"
+    "es"  "Gallina"
+    "pt"  "Galinha"
+  }
+
+  "price_melon_button"
+  {
+    "en"  "Melon seed"
+    "es"  "Semilla de Melón"
+    "pt"  "Semente de Melão"
+  }
+
+  "price_orange_button"
+  {
+    "en"  "Orange seed"
+    "es"  "Semilla de Naranja"
+    "pt"  "Semente de Laranja"
+  }
+
+  "price_pumpkin_button"
+  {
+    "en"  "Pumpkin seed"
+    "es"  "Semilla de Calabaza"
+    "pt"  "Semente de Abóbora"
+  }
+
+  "price_tomato_button"
+  {
+    "en"  "Tomato seed"
+    "es"  "Semilla de Tomate"
+    "pt"  "Semente de Tomate"
+  }
+
+  "price_weed_button"
+  {
+    "en"  "Weed seed"
+    "es"  "Semilla de Marihuana"
+    "pt"  "Semente de Maconha"
+  }
+
+  "pufferfish_butt"
+  {
+    "en"  "Pufferfish"
+    "es"  "Pez globo"
+    "pt"  "Baiacu"
+  }
+
+  "radio2_butt"
+  {
+    "en"  "Music"
+    "es"  "Música"
+    "pt"  "Música"
+  }
+
+  "radio_butt"
+  {
+    "en"  "Radio"
+    "es"  "Radio"
+    "pt"  "Radio"
+  }
+
+  "respawn_butt"
+  {
+    "en"  "Players Respawn"
+    "es"  "Reaparición de jugadores"
+    "pt"  "Renascimento dos jogadores"
+  }
+
+  "shed_butt"
+  {
+    "en"  "Shed"
+    "es"  "Cobertizo"
+    "pt"  "Galpão"
+  }
+
+  "shed_sprinkler_butt"
+  {
+    "en"  "Shed Sprinkler"
+    "es"  "Rociador para cobertizo"
+    "pt"  "Aspersor do Galpão"
+  }
+
+  "silo_store_butt"
+  {
+    "en"  "Silo"
+    "es"  "Silo"
+    "pt"  "Silo"
+  }
+
+  "spider_butt"
+  {
+    "en"  "Spider"
+    "es"  "Araña"
+    "pt"  "Aranha"
+  }
+
+  "spinner_butt"
+  {
+    "en"  "Fidget Spinner"
+    "es"  "Fidget Spinner"
+    "pt"  "Fidget Spinner"
+  }
+
+  "sprinky_butt"
+  {
+    "en"  "Sprinkler"
+    "es"  "Aspersor"
+    "pt"  "Aspersor"
+  }
+
+  "sprinky_butt2"
+  {
+    "en"  "Sprinkler"
+    "es"  "Aspersor"
+    "pt"  "Aspersor"
+  }
+
+  "sprinky_butt3"
+  {
+    "en"  "Sprinkler"
+    "es"  "Aspersor"
+    "pt"  "Aspersor"
+  }
+
+  "sprinky_butt4"
+  {
+    "en"  "Sprinkler"
+    "es"  "Aspersor"
+    "pt"  "Aspersor"
+  }
+
+  "sprinky_butt5"
+  {
+    "en"  "Sprinkler"
+    "es"  "Aspersor"
+    "pt"  "Aspersor"
+  }
+
+  "sprinky_butt6"
+  {
+    "en"  "Sprinkler"
+    "es"  "Aspersor"
+    "pt"  "Aspersor"
+  }
+
+  "sprinky_butt7"
+  {
+    "en"  "Sprinkler"
+    "es"  "Aspersor"
+    "pt"  "Aspersor"
+  }
+
+  "sprinky_butt8"
+  {
+    "en"  "Sprinkler"
+    "es"  "Aspersor"
+    "pt"  "Aspersor"
+  }
+
+  "sword_diamond_butt"
+  {
+    "en"  "Diamond Sword"
+    "es"  "Espada de Diamante"
+    "pt"  "Espada de Diamante"
+  }
+
+  "sword_iron_butt"
+  {
+    "en"  "Iron Sword"
+    "es"  "Espada de Hierro"
+    "pt"  "Espada de Ferro"
+  }
+
+  "sword_stone_butt"
+  {
+    "en"  "Stone Sword"
+    "es"  "Espada de Piedra"
+    "pt"  "Espada de Pedra"
+  }
+
+  "sword_wood_butt"
+  {
+    "en"  "Wood Sword"
+    "es"  "Espada de Madera"
+    "pt"  "Espada de Madeira"
+  }
+
+  "teleporter_butt"
+  {
+    "en"  "Teleporter"
+    "es"  "Teletransportador"
+    "pt"  "Teletransportador"
+  }
+
+  "tendo_butt_0"
+  {
+    "en"  "Nintendo 64"
+    "es"  "Nintendo 64"
+    "pt"  "Nintendo 64"
+  }
+
+  "TNT_button"
+  {
+    "en"  "Dynamite"
+    "es"  "Dinamita"
+    "pt"  "Dinamite"
+  }
+
+  "tower_store_butt"
+  {
+    "en"  "Clock Tower"
+    "es"  "Torre del reloj"
+    "pt"  "Torre do Relógio"
+  }
+
+  "transport_butt"
+  {
+    "en"  "Transporter"
+    "es"  "Transportador"
+    "pt"  "Transportador"
+  }
+
+  "trophy_butt2"
+  {
+    "en"  "Trophy"
+    "es"  "Trofeo"
+    "pt"  "Troféu"
+  }
+
+  "TV_button"
+  {
+    "en"  "TV"
+    "es"  "TV"
+    "pt"  "TV"
+  }
+
+  "walkie_butt1"
+  {
+    "en"  "Trail Effect"
+    "es"  "Efecto de estela"
+    "pt"  "Efeito de rastro"
+  }
+
+  "walkie_butt2"
+  {
+    "en"  "Text Effect"
+    "es"  "Efecto de texto"
+    "pt"  "Efeito de texto"
+  }
+
+  "walkie_butt3"
+  {
+    "en"  "Smoke Effect"
+    "es"  "Efecto de humo"
+    "pt"  "Efeito de fumaça"
+  }
+
+  "walkie_butt4"
+  {
+    "en"  "Fire Effect"
+    "es"  "Efecto de fuego"
+    "pt"  "Efeito de fogo"
+  }
+
+  "walkie_butt5"
+  {
+    "en"  "Wings"
+    "es"  "Alas"
+    "pt"  "Asas"
+  }
+
+  "walkie_butt6"
+  {
+    "en"  "Mask"
+    "es"  "Máscara"
+    "pt"  "Máscara"
+  }
+
+  "walkie_butt7"
+  {
+    "en"  "Stink Effect"
+    "es"  "Efecto de mal olor"
+    "pt"  "Efeito de Fedido"
+  }
+
+  "water_can_button_1"
+  {
+    "en"  "Watering Can"
+    "es"  "Regadera"
+    "pt"  "Regador"
+  }
+
+  "water_can_button_2"
+  {
+    "en"  "Watering Can"
+    "es"  "Regadera"
+    "pt"  "Regador"
+  }
+
+  "water_can_button_3"
+  {
+    "en"  "Watering Can"
+    "es"  "Regadera"
+    "pt"  "Regador"
+  }
+
+  "water_can_button_4"
+  {
+    "en"  "Watering Can"
+    "es"  "Regadera"
+    "pt"  "Regador"
+  }
+
+  "welder_butt"
+  {
+    "en"  "Welder"
+    "es"  "Soldador"
+    "pt"  "Maçarico"
+  }
+
+  "well_butt"
+  {
+    "en"  "Water Well"
+    "es"  "Pozo"
+    "pt"  "Poço"
+  }
+
+  "wind_butt"
+  {
+    "en"  "Repair Windows"
+    "es"  "Reparar ventanas"
+    "pt"  "Reparar janelas"
+  }
+
+  "wish_button"
+  {
+    "en"  "Wish"
+    "es"  "Deseo"
+    "pt"  "Desejo"
+  }
 }
