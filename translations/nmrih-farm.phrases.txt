@@ -19,9 +19,9 @@
   "Purchased Message"
   {
     "#format"  "{1:N},{2:d},{3:t},{4:d}"
-    "en"       "[{green}FARM{white}] {gold}{1} purchased {2} {3}{lightcoral} ({red}${4}{lightcoral})"
-    "es"       "[{green}FARM{white}] {gold}{1} compró {2} {3}{lightcoral} ({red}${4}{lightcoral})"
-    "pt"       "[{green}FARM{white}] {gold}{1} comprou {2} {3}{lightcoral} ({red}${4}{lightcoral})"
+    "en"       "[{green}FARM{white}] {lightgreen}{1} purchased {2} {green}{3}{lightcoral} ({red}${4}{lightcoral})"
+    "es"       "[{green}FARM{white}] {lightgreen}{1} compró {2} {green}{3}{lightcoral} ({red}${4}{lightcoral})"
+    "pt"       "[{green}FARM{white}] {lightgreen}{1} comprou {2} {green}{3}{lightcoral} ({red}${4}{lightcoral})"
   }
 
   "Purchased Message Console"
@@ -237,7 +237,7 @@
 
   "evac_axel_butt"
   {
-    "en"  "axle"
+    "en"  "Axle"
     "es"  "Eje"
     "pt"  "Eixo"
   }
