@@ -8,7 +8,7 @@
 #define MAX_MESSAGE_LENGTH 128
 
 #define PLUGIN_DESCRIPTION "Add features to the mg_farm map"
-#define PLUGIN_VERSION     "1.0.0"
+#define PLUGIN_VERSION     "1.0.1"
 
 public Plugin myinfo =
 {
