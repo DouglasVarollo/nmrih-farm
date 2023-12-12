@@ -1,5 +1,4 @@
 int   currentDay;
-float dayInSeconds;
 
 Handle hDayTimer;
 
@@ -21,7 +20,6 @@ stock void PrintCurrentDay()
 stock void StartTrackingDays()
 {
 	currentDay   = 0;
-	dayInSeconds = CvarFarmDayInSeconds.FloatValue;
 
 	if (IsValidHandle(hDayTimer))
 	{
@@ -30,7 +28,7 @@ stock void StartTrackingDays()
 
 	PrintCurrentDay();
 
-	hDayTimer = CreateTimer(dayInSeconds, Timer_DayChanged, _, TIMER_FLAG_NO_MAPCHANGE | TIMER_REPEAT);
+	hDayTimer = CreateTimer(DAY_IN_SECONDS, Timer_DayChanged, _, TIMER_FLAG_NO_MAPCHANGE | TIMER_REPEAT);
 }
 
 stock Action Timer_DayChanged(Handle timer)

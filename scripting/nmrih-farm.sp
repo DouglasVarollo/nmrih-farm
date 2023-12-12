@@ -2,13 +2,13 @@
 #include <sdktools>
 #include <sourcemod>
 
+#define DAY_IN_SECONDS 300.0
+
 #define FARM_LOG_TYPE_CHAT    1
 #define FARM_LOG_TYPE_CONSOLE 2
 
-#define MAX_MESSAGE_LENGTH 128
-
 #define PLUGIN_DESCRIPTION "Add features to the mg_farm map"
-#define PLUGIN_VERSION     "1.0.3"
+#define PLUGIN_VERSION     "1.0.4"
 
 public Plugin myinfo =
 {
@@ -19,7 +19,6 @@ public Plugin myinfo =
 	url         = "https://github.com/DouglasVarollo/nmrih-farm"
 };
 
-ConVar CvarFarmDayInSeconds;
 ConVar CvarFarmLogType;
 
 #include <farm/calendar.sp>
@@ -70,8 +69,7 @@ public void OnPluginStart()
 {
 	CreateConVar("sm_farm_version", PLUGIN_VERSION, PLUGIN_DESCRIPTION, FCVAR_DONTRECORD | FCVAR_SPONLY);
 
-	CvarFarmDayInSeconds = CreateConVar("sm_farm_day_in_seconds", "300.0", "The length of the day in seconds");
-	CvarFarmLogType      = CreateConVar("sm_farm_log_type", "0", "Choose the log type");
+	CvarFarmLogType = CreateConVar("sm_farm_log_type", "0", "Choose the log type");
 
 	AutoExecConfig(true, "plugin.nmrih-farm");
 
