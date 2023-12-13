@@ -35,7 +35,7 @@ stock void InsertPurchase(int client, const char[] name)
 		}
 	}
 
-	purchase.timer = CreateDataTimer(1.0, Timer_PrintPurchase, datapack);
+	purchase.timer = CreateDataTimer(CvarFarmTrackingInterval.FloatValue, Timer_PrintPurchase, datapack);
 
 	WritePackCell(datapack, client);
 	WritePackString(datapack, name);

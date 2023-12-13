@@ -8,7 +8,7 @@
 #define FARM_LOG_TYPE_CONSOLE 2
 
 #define PLUGIN_DESCRIPTION "Add features to the mg_farm map"
-#define PLUGIN_VERSION     "1.0.6"
+#define PLUGIN_VERSION     "1.0.7"
 
 public Plugin myinfo =
 {
@@ -20,6 +20,7 @@ public Plugin myinfo =
 };
 
 ConVar CvarFarmLogType;
+ConVar CvarFarmTrackingInterval;
 
 #include <farm/calendar.sp>
 #include <farm/economy.sp>
@@ -71,7 +72,8 @@ public void OnPluginStart()
 {
 	CreateConVar("sm_farm_version", PLUGIN_VERSION, PLUGIN_DESCRIPTION, FCVAR_DONTRECORD | FCVAR_SPONLY);
 
-	CvarFarmLogType = CreateConVar("sm_farm_log_type", "0", "Choose the log type");
+	CvarFarmLogType          = CreateConVar("sm_farm_log_type", "0", "Choose the log type");
+	CvarFarmTrackingInterval = CreateConVar("sm_farm_tracking_interval", "1.0", "The time interval to track the same purchases");
 
 	AutoExecConfig(true, "plugin.nmrih-farm");
 
