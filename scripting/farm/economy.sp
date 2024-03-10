@@ -280,13 +280,13 @@ stock Action Timer_PrintPurchase(Handle timer, DataPack datapack)
 
 stock void UnregisterPurchasableItems()
 {
-	delete purchasable;
+	purchasable.Clear();
 }
 
 stock void UnregisterPurchases()
 {
 	for (int i = 0; i < MaxClients; i++)
 	{
-		delete purchases[i];
+		purchases[i].Clear();
 	}
 }

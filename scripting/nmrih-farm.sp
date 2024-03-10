@@ -4,11 +4,11 @@
 
 #define DAY_IN_SECONDS 300.0
 
-#define FARM_LOG_TYPE_CHAT    1
-#define FARM_LOG_TYPE_CONSOLE 2
+#define FARM_LOG_TYPE_CHAT    0
+#define FARM_LOG_TYPE_CONSOLE 1
 
 #define PLUGIN_DESCRIPTION "Add features to the mg_farm map"
-#define PLUGIN_VERSION     "1.0.7"
+#define PLUGIN_VERSION     "1.0.8"
 
 public Plugin myinfo =
 {
@@ -35,16 +35,14 @@ stock void OnButtonPressed(const char[] output, int caller, int activator, float
 	InsertPurchase(activator, name);
 }
 
-stock Action Event_RoundBegin(Event event, const char[] name, bool dontBroadcast)
+stock void Event_RoundBegin(Event event, const char[] name, bool dontBroadcast)
 {
 	if (!IsFarmMap())
 	{
-		return Plugin_Continue;
+		return;
 	}
 
 	StartTrackingDays();
-
-	return Plugin_Continue;
 }
 
 public void OnMapStart()
@@ -62,6 +60,11 @@ public void OnMapStart()
 
 public void OnMapEnd()
 {
+	if (!IsFarmMap())
+	{
+		return;
+	}
+
 	UnhookEntityOutput("func_button", "OnPressed", OnButtonPressed);
 
 	UnregisterPurchasableItems();
@@ -72,12 +75,12 @@ public void OnPluginStart()
 {
 	CreateConVar("sm_farm_version", PLUGIN_VERSION, PLUGIN_DESCRIPTION, FCVAR_DONTRECORD | FCVAR_SPONLY);
 
-	CvarFarmLogType          = CreateConVar("sm_farm_log_type", "0", "Choose the log type");
-	CvarFarmTrackingInterval = CreateConVar("sm_farm_tracking_interval", "1.0", "The time interval to track the same purchases");
+	CvarFarmLogType          = CreateConVar("sm_farm_log_type", "0", "Choose the log type (0 = Chat, 1 = Console)");
+	CvarFarmTrackingInterval = CreateConVar("sm_farm_tracking_interval", "1.0", "The time interval in seconds to track the purchases");
 
 	AutoExecConfig(true, "plugin.nmrih-farm");
 
-	HookEvent("nmrih_round_begin", Event_RoundBegin);
+	HookEvent("nmrih_round_begin", Event_RoundBegin, EventHookMode_PostNoCopy);
 
 	LoadTranslations("nmrih-farm.phrases");
 }
