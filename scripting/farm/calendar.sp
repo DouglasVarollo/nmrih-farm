@@ -1,10 +1,10 @@
-int   currentDay;
+int currentDay;
 
 Handle hDayTimer;
 
 stock void PrintCurrentDay()
 {
-	switch (CvarFarmLogType.IntValue)
+	switch (logType)
 	{
 		case FARM_LOG_TYPE_CHAT:
 		{
@@ -19,7 +19,7 @@ stock void PrintCurrentDay()
 
 stock void StartTrackingDays()
 {
-	currentDay   = 0;
+	currentDay = 0;
 
 	if (IsValidHandle(hDayTimer))
 	{

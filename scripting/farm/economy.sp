@@ -35,7 +35,7 @@ stock void InsertPurchase(int client, const char[] name)
 		}
 	}
 
-	purchase.timer = CreateDataTimer(CvarFarmTrackingInterval.FloatValue, Timer_PrintPurchase, datapack);
+	purchase.timer = CreateDataTimer(trackingInterval, Timer_PrintPurchase, datapack);
 
 	WritePackCell(datapack, client);
 	WritePackString(datapack, name);
@@ -263,7 +263,7 @@ stock Action Timer_PrintPurchase(Handle timer, DataPack datapack)
 
 	purchases[client].Remove(name);
 
-	switch (CvarFarmLogType.IntValue)
+	switch (logType)
 	{
 		case FARM_LOG_TYPE_CHAT:
 		{

@@ -10,7 +10,7 @@
 #define NMRIH_MAXPLAYERS 9
 
 #define PLUGIN_DESCRIPTION "Add features to the mg_farm map"
-#define PLUGIN_VERSION     "1.0.9"
+#define PLUGIN_VERSION     "1.1.0"
 
 public Plugin myinfo =
 {
@@ -24,9 +24,23 @@ public Plugin myinfo =
 ConVar CvarFarmLogType;
 ConVar CvarFarmTrackingInterval;
 
+int   logType;
+char  mapName[PLATFORM_MAX_PATH];
+float trackingInterval;
+
 #include <farm/calendar.sp>
 #include <farm/economy.sp>
-#include <farm/utils.sp>
+
+stock void CacheConVars()
+{
+	logType          = CvarFarmLogType.IntValue;
+	trackingInterval = CvarFarmTrackingInterval.FloatValue;
+}
+
+stock void ConVarChanged(ConVar convar, const char[] oldValue, const char[] newValue)
+{
+	CacheConVars();
+}
 
 stock void OnButtonPressed(const char[] output, int caller, int activator, float delay)
 {
@@ -47,8 +61,20 @@ stock void Event_RoundBegin(Event event, const char[] name, bool dontBroadcast)
 	StartTrackingDays();
 }
 
+stock bool IsFarmMap()
+{
+	return StrContains(mapName, "mg_farm") == 0;
+}
+
+public void OnConfigsExecuted()
+{
+	CacheConVars();
+}
+
 public void OnMapStart()
 {
+	GetCurrentMap(mapName, sizeof(mapName));
+
 	if (!IsFarmMap())
 	{
 		return;
@@ -80,7 +106,12 @@ public void OnPluginStart()
 	CvarFarmLogType          = CreateConVar("sm_farm_log_type", "0", "Choose the log type (0 = Chat, 1 = Console)");
 	CvarFarmTrackingInterval = CreateConVar("sm_farm_tracking_interval", "1.0", "The time interval in seconds to track the purchases");
 
+	CvarFarmLogType.AddChangeHook(ConVarChanged);
+	CvarFarmTrackingInterval.AddChangeHook(ConVarChanged);
+
 	AutoExecConfig(true, "plugin.nmrih-farm");
+
+	CacheConVars();
 
 	HookEvent("nmrih_round_begin", Event_RoundBegin, EventHookMode_PostNoCopy);
 
