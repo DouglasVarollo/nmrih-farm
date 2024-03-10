@@ -7,8 +7,10 @@
 #define FARM_LOG_TYPE_CHAT    0
 #define FARM_LOG_TYPE_CONSOLE 1
 
+#define NMRIH_MAXPLAYERS 9
+
 #define PLUGIN_DESCRIPTION "Add features to the mg_farm map"
-#define PLUGIN_VERSION     "1.0.8"
+#define PLUGIN_VERSION     "1.0.9"
 
 public Plugin myinfo =
 {

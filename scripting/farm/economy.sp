@@ -7,7 +7,7 @@ enum struct Purchase
 }
 
 StringMap purchasable;
-StringMap purchases[MAXPLAYERS];
+StringMap purchases[NMRIH_MAXPLAYERS + 1];
 
 stock void InsertPurchase(int client, const char[] name)
 {
