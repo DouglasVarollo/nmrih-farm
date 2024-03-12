@@ -15,3 +15,7 @@ ConVars can be configured in ```cfg/sourcemod/plugin.nmrih-farm.cfg```
 |---------------------------|-------|-----------------------------------------------------|
 | sm_farm_log_type          | 0     | Choose the log type (0 = Chat, 1 = Console)         |
 | sm_farm_tracking_interval | 1.0   | The time interval in seconds to track the purchases |
+
+## Contributors
+
+- [lysthzz](https://github.com/lysthzz) - Spanish translation and plugin testing
